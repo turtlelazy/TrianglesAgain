@@ -22,4 +22,9 @@ public class Point{
 	public double distanceTo(Point other){
 		return Math.sqrt((y-other.y)*(y-other.y)+(x-other.x)*(x-other.x));
 	}
+	
+	public boolean equals(Point other){
+		return(other.x == x && other.y == y);
+	}
+	
 }
