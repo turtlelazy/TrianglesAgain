@@ -27,7 +27,7 @@ public class Point{
 		return(other.x == x && other.y == y);
 	}
 	
-	public String print(){
+	public String toString(){
 		return("("+getX() +", "+getY()+")");
 	}
 	

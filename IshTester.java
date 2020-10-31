@@ -27,6 +27,9 @@ public class IshTester{
 		
 		System.out.println(a.classify());
 		System.out.println(b.classify());
+		
+		System.out.println(a.toString());
+		System.out.println(b.toString());
 	}
 
 }
