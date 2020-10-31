@@ -29,6 +29,36 @@ public class Triangle{
 		return sideC() + sideA() + sideB();
 	}
 	
+	public double sideAR(){
+		double a = v1.distanceTo(v2);
+		a *= 10000;  
+		int distanceInteger = (int)a;
+		a = distanceInteger / 10000.0;
+
+		return a;
+	}
+	
+	public double sideBR(){
+		double b = v2.distanceTo(v3);
+		
+		b *= 10000;  
+		int distanceInteger = (int)b;
+		b = distanceInteger / 10000.0;
+
+		return b;
+	}
+	
+	public double sideCR(){
+		double c = v3.distanceTo(v1);
+		
+		c *= 10000;  
+		int distanceInteger = (int)c;
+		c = distanceInteger / 10000.0;
+
+		return c;
+	}
+	
+	
 	public double getArea(){
 		double semiPerimeter = getPerimeter() / 2;
 		return Math.sqrt(semiPerimeter * (semiPerimeter - sideA()) * (semiPerimeter - sideB()) * (semiPerimeter - sideC()));
