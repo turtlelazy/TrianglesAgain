@@ -30,7 +30,7 @@ public class Triangle{
 	}
 	
 	public double sideAR(){
-		double a = v1.distanceTo(v2);
+		double a = sideA();
 		a *= 10000;  
 		int distanceInteger = (int)a;
 		a = distanceInteger / 10000.0;
@@ -39,7 +39,7 @@ public class Triangle{
 	}
 	
 	public double sideBR(){
-		double b = v2.distanceTo(v3);
+		double b = sideB();
 		
 		b *= 10000;  
 		int distanceInteger = (int)b;
@@ -49,7 +49,7 @@ public class Triangle{
 	}
 	
 	public double sideCR(){
-		double c = v3.distanceTo(v1);
+		double c = sideC();
 		
 		c *= 10000;  
 		int distanceInteger = (int)c;
