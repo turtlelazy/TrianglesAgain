@@ -21,10 +21,10 @@ public class Steven_Tester {
         Triangle pointTriangleTest = new Triangle(a,b,c);
         Triangle coordinateTest = new Triangle(0.5248, -0.8002, -2.437885, 1.94,0.0, 0.0);
         
-        /*tests for perimeter 
+
         System.out.println(pointTriangleTest.getPerimeter()); //8.108143867816992
         System.out.println(coordinateTest.getPerimeter());    //8.108143867816992
-        */
+        
 
         /* tests for area
         System.out.println(pointTriangleTest.getArea());      //0.46634178850000285

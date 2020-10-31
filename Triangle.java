@@ -13,9 +13,20 @@ public class Triangle{
 		v2 = b;
 		v3 = c;
 	}
+	public double sideA(){
+		return v1.distanceTo(v2);
+	}
+	
+	public double sideB(){
+		return v2.distanceTo(v3);
+	}
+	
+	public double sideC(){
+		return v3.distanceTo(v1);
+	}
 	
 	public double getPerimeter(){
-		return v1.distanceTo(v2) + v2.distanceTo(v3) + v3.distanceTo(v1);
+		return sideC() + sideA() + sideB();
 	}
 	
 	
