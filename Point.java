@@ -27,4 +27,6 @@ public class Point{
 		return(other.x == x && other.y == y);
 	}
 	
+	
+	
 }
