@@ -29,7 +29,6 @@ public class Steven_Tester {
         System.out.println(pointTriangleTest.getArea());      //0.46634178850000285
         System.out.println(coordinateTest.getArea());         //0.46634178850000285
 
-        /* tests for classify()
         Point d = new Point (0.1, 0.1);
         Point e = new Point (-1.9, 0.1);
         Point f = new Point (-0.9, -1.632051);
@@ -40,7 +39,6 @@ public class Steven_Tester {
         System.out.println(coordinateEquilateral.classify());
         System.out.println(coordinateIsoceles.classify());
         System.out.println(coordinateScalene.classify());
-        */
 
         /* tests for toString()
         System.out.println(pointTriangleTest.toString()); //v1(0.5248, -0.8002) v2(-2.437885, 1.94) v3(0.0, 0.0)

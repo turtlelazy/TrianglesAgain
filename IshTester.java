@@ -24,6 +24,9 @@ public class IshTester{
 		
 		System.out.println(a.getArea());
 		System.out.println(b.getArea());
+		
+		System.out.println(a.classify());
+		System.out.println(b.classify());
 	}
 
 }

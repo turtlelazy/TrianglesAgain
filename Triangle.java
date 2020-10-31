@@ -34,6 +34,19 @@ public class Triangle{
 		return Math.sqrt(semiPerimeter * (semiPerimeter - sideA()) * (semiPerimeter - sideB()) * (semiPerimeter - sideC()));
 	}
 	
+	public String classify(){
+		if(sideA() == sideB() && sideB() == sideC()){
+			return ("equilateral");
+		}
+		
+		else if(sideA() == sideB() || sideA() == sideC() || sideB() == sideC()){
+			return ("isosceles");
+		}
+		else{
+			return ("scalene");
+		}
+	}
+	
 	
 
 }
