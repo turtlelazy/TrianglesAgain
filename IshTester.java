@@ -15,6 +15,9 @@ public class IshTester{
 		System.out.println(number1.equals(number2)); //false
 		System.out.println(origin.equals(origin0)); //true
 		System.out.println(origin.equals(origin1)); // true
+		
+		Triangle a = new Triangle(0,0,0,0,0,0);
+		Triangle b = new Triangle(new Point(0,1),new Point(5,6),new Point(21,10));
 	}
 
 }
