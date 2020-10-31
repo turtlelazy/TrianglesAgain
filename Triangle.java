@@ -65,11 +65,11 @@ public class Triangle{
 	}
 	
 	public String classify(){
-		if(sideA() == sideB() && sideB() == sideC()){
+		if(sideAR() == sideBR() && sideBR() == sideCR()){
 			return ("equilateral");
 		}
 		
-		else if(sideA() == sideB() || sideA() == sideC() || sideB() == sideC()){
+		else if(sideAR() == sideBR() || sideAR() == sideCR() || sideBR() == sideCR()){
 			return ("isosceles");
 		}
 		else{
