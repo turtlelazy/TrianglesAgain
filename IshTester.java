@@ -18,6 +18,12 @@ public class IshTester{
 		
 		Triangle a = new Triangle(0,0,0,0,0,0);
 		Triangle b = new Triangle(new Point(0,1),new Point(5,6),new Point(21,10));
+		
+		System.out.println(a.getPerimeter());
+		System.out.println(b.getPerimeter());
+		
+		System.out.println(a.getArea());
+		System.out.println(b.getArea());
 	}
 
 }

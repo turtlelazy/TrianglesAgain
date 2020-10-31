@@ -26,10 +26,8 @@ public class Steven_Tester {
         System.out.println(coordinateTest.getPerimeter());    //8.108143867816992
         
 
-        /* tests for area
         System.out.println(pointTriangleTest.getArea());      //0.46634178850000285
         System.out.println(coordinateTest.getArea());         //0.46634178850000285
-        */
 
         /* tests for classify()
         Point d = new Point (0.1, 0.1);

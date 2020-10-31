@@ -29,6 +29,11 @@ public class Triangle{
 		return sideC() + sideA() + sideB();
 	}
 	
+	public double getArea(){
+		double semiPerimeter = getPerimeter() / 2;
+		return Math.sqrt(semiPerimeter * (semiPerimeter - sideA()) * (semiPerimeter - sideB()) * (semiPerimeter - sideC()));
+	}
+	
 	
 
 }
