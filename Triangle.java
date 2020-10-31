@@ -80,5 +80,21 @@ public class Triangle{
 	public String toString(){
 		return ("v1" + v1.toString() + " v2" + v2.toString() + " v3" + v3.toString());
 	}
+	
+	public void setVertex(int index, Point newP){
+		Point current;
+		if(index == 0){
+			v1 = newP;
+		}
+		
+		else if (index == 1){
+			v2 = newP;
+		}
+		
+		else if(index == 2){
+			v3 = newP;
+		}
+		
+	}
 
 }

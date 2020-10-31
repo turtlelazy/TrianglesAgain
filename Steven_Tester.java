@@ -44,7 +44,7 @@ public class Steven_Tester {
         System.out.println(pointTriangleTest.toString()); //v1(0.5248, -0.8002) v2(-2.437885, 1.94) v3(0.0, 0.0)
         System.out.println(coordinateTest.toString());    //v1(0.5248, -0.8002) v2(-2.437885, 1.94) v3(0.0, 0.0)
 
-        /* tests for setVertex()
+
         Point k = new Point (15, 15);
         Point l = new Point (2, 2);
         Point m = new Point (4.0, 0.0);
@@ -55,7 +55,7 @@ public class Steven_Tester {
         System.out.println(pointTriangleTest.toString());   //v1(15.0, 15.0) v2(2.0, 2.0) v3(4.0, 0.0)
         System.out.println(pointTriangleTest.getPerimeter());   //39.8142786733347
         System.out.println(pointTriangleTest.getArea());    //25.99999999999998
-        */
+
 
     }
 }
