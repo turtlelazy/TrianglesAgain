@@ -7,13 +7,13 @@ public class Steven_Tester {
         Point testpoint2 = new Point(4,5);
         Point testpoint3 = new Point(3,4);
 
-        /* tests for point
+
         System.out.println(testpoint.getX()+", "+testpoint.getY());  // 3.0,4.0
         System.out.println(testpoint.equals(testpoint2));            // false
         System.out.println(testpoint.equals(testpoint3));            // true
         System.out.println(testpoint.distanceTo(testpoint2)); // 1.4142135623730951
         System.out.println(testpoint.distanceTo(testpoint3)); // 0.0
-        */
+
         
         Point a = new Point (0.5248, -0.8002);
         Point b = new Point (-2.437885, 1.94);

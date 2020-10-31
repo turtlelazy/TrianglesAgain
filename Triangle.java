@@ -8,7 +8,11 @@ public class Triangle{
 
 	}
 	
-	
+	public Triangle(Point a, Point b, Point c){
+		v1 = a;
+		v2 = b;
+		v3 = c;
+	}
 	
 	
 
